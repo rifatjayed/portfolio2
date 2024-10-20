@@ -4,28 +4,29 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        neueRegrade: ['"Neue Regrade"', "sans-serif"],
+        custom: ["Neue Regrade", "sans-serif"],
       },
-      fontSize: {
-        "custom-250": "250px",
-        "custom-18": "18px",
-      },
-      lineHeight: {
-        "custom-241": "241px",
-        "custom-80": "80.64px",
-        "custom-22": "22.32px",
-      },
-      letterSpacing: {
-        "custom-tight": "-0.02em",
-        "custom-wide": "0.03em",
-      },
-      backgroundImage: {
-        "custom-gradient":
-          "linear-gradient(90deg, #595A7B 0%, #FFFFFF 50%, #595A7B 100%)",
-      },
-      colors: {
-        "custom-gray": "#595A7B",
-      },
+      // Aidai toh
+      // fontSize: {
+      //   "custom-250": "250px",
+      //   "custom-18": "18px",
+      // },
+      // lineHeight: {
+      //   "custom-241": "241px",
+      //   "custom-80": "80.64px",
+      //   "custom-22": "22.32px",
+      // },
+      // letterSpacing: {
+      //   "custom-tight": "-0.02em",
+      //   "custom-wide": "0.03em",
+      // },
+      // backgroundImage: {
+      //   "custom-gradient":
+      //     "linear-gradient(90deg, #595A7B 0%, #FFFFFF 50%, #595A7B 100%)",
+      // },
+      // colors: {
+      //   "custom-gray": "#595A7B",
+      // },
     },
   },
   plugins: [],

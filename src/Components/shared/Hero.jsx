@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className="">
       <div className=" ">
-        <h1 className=" bg-gradient-to-r from-[#595A7B] via-[#FFF] to-[#595A7B] bg-clip-text text-transparent text-center font-neueRegrade text-[350px] font-bold leading-none">
+        <h1 className=" bg-gradient-to-r from-[#595A7B] via-[#FFF] to-[#595A7B] bg-clip-text text-transparent text-center font-custom text-[350px] font-bold leading-none">
           DESIGN
         </h1>
 

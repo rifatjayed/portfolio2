@@ -114,7 +114,7 @@ const Home = () => {
       <div className="w-full h-[1080px] relative bg-black overflow-x-hidden">
         <div className="w-[888px] h-[652px] left-[-131px] top-[294px] absolute bg-[#5e20d0]/60 rounded-full blur-[1000px]" />
         <img
-          className="w-[529px] h-[899.16px] left-0 top-[47px] absolute"
+          className=" left-0 top-[47px] absolute"
           src={hero1}
           alt="Hero Image"
         />
