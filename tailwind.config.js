@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        custom: ["Neue Regrade", "sans-serif"],
+        // custom: ["Neue Regrade", "sans-serif"],
+        "neue-regrade": ["NeueRegradeBold", "sans-serif"],
       },
       // Aidai toh
       // fontSize: {

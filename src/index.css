@@ -2,14 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
+/* @layer base {
   @font-face {
     font-family: "newfont";
-    src: url(/public/fontFamily/myfont.ttf) format("ttf");
+    src: url(/public//fontFamily//customFonts/Neue\ Regrade\ Bold.otf)
+      format("otf");
     font-weight: normal;
     font-style: normal;
   }
+} */
+
+@font-face {
+  font-family: "NeueRegradeBold";
+  src: url("/public/fontFamily/customFonts/Neue\ Regrade\ Bold.otf")
+    format("opentype");
+  font-weight: bold;
+  font-style: normal;
 }
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
