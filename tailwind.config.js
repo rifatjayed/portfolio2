@@ -5,7 +5,9 @@ export default {
     extend: {
       fontFamily: {
         // custom: ["Neue Regrade", "sans-serif"],
-        "neue-regrade": ["NeueRegradeBold", "sans-serif"],
+        raleway: ["Raleway", "sans-serif"],
+        "neue-regrade-bold": ["NeueRegradeBold", "sans-serif"],
+        "neue-regrade-regular": ["NeueRegradeRegular", "sans-serif"],
       },
       // Aidai toh
       // fontSize: {

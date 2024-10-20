@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap");
 
 /* @layer base {
   @font-face {
@@ -17,6 +18,14 @@
   src: url("/public/fontFamily/customFonts/Neue\ Regrade\ Bold.otf")
     format("opentype");
   font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NeueRegradeRegular";
+  src: url("/public/fontFamily/customFonts/Neue\ Regrade\ Regular.otf")
+    format("opentype");
+  font-weight: normal;
   font-style: normal;
 }
 

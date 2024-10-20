@@ -7,7 +7,6 @@ import hero1 from "../../assets/img/hero1-removebg-preview.png";
 import hero2 from "../../assets/img/hero2.mp4";
 import Footer from "../shared/Footer";
 import ProPic from "../../assets/img/bappi.png";
-import Full from "./Full";
 
 const Home = () => {
   return (
@@ -19,16 +18,11 @@ const Home = () => {
 
       <div className="relative">
         <div className="px-[100px]">
-          <video
-            className="w-[1502px] h-[1455px] flex-shrink-0 "
-            autoPlay
-            muted
-            loop
-          >
+          <video className="w-[1502px]  flex-shrink-0 " autoPlay muted loop>
             {/* w-[1500px] h-auto */}
             <source src={videoOne} type="video/mp4" />
           </video>
-          <h1 className="absolute inset-0 flex flex-col justify-center items-center text-center font-bold text-[64px]">
+          <h1 className="absolute inset-0 flex flex-col justify-center items-center text-center font-raleway font-bold	 text-[64px]">
             <div>
               <span className="bg-gradient-to-r from-[#595A7B] via-[#FFFFFF] to-[#595A7B] bg-clip-text text-transparent ">
                 I SUPPORT
@@ -111,7 +105,7 @@ const Home = () => {
         <div className="w-[561px] h-[358px] left-[1968.65px] top-[344.20px] absolute origin-top-left rotate-[139.02deg] mix-blend-screen" />
         <div className="w-[241px] h-[122px] left-[1118px] top-[788px] absolute mix-blend-screen" />
       </div> */}
-      <div className="w-full h-[1080px] relative bg-black overflow-x-hidden">
+      <div className="w-full h-[1080px] relative bg-black overflow-x-hidden flex items-center ">
         <div className="w-[888px] h-[652px] left-[-131px] top-[294px] absolute bg-[#5e20d0]/60 rounded-full blur-[1000px]" />
         <img
           className=" left-0 top-[47px] absolute"
@@ -119,14 +113,16 @@ const Home = () => {
           alt="Hero Image"
         />
         <div className="left-[514px] top-[435px] absolute flex-col justify-start items-start gap-[30px] inline-flex">
-          <div className="w-[822px] h-[150px] text-white text-[40px] font-bold font-neue">
-            I GIVE MY SERVICE FIRST, AND PAY ONLY WHEN YOU’RE COMPLETELY
-            SATISFIED WITH THE RESULTS.
-          </div>
-          <div className="w-[859px] text-white/60 text-lg font-bold font-neue">
-            Ensuring your satisfaction is my mission. I listen closely, respond
-            promptly, and aim to exceed your expectations with every
-            interaction.
+          <div className="">
+            <div className="w-[822px] h-[150px] text-white text-[40px]  font-neue-regrade-bold">
+              I GIVE MY SERVICE FIRST, AND PAY ONLY WHEN YOU’RE COMPLETELY
+              SATISFIED WITH THE RESULTS.
+            </div>
+            <div className="w-[859px] text-white/60 text-lg  font-neue-regrade-bold mt-[30px]">
+              Ensuring your satisfaction is my mission. I listen closely,
+              respond promptly, and aim to exceed your expectations with every
+              interaction.
+            </div>
           </div>
         </div>
         {/* <div className="w-[561px] h-[358px] left-[1968.65px] top-[344.20px] absolute origin-top-left rotate-[139.02deg] mix-blend-screen" /> */}
