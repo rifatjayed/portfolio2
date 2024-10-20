@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        neue: ['"Neue Regrade"', "sans-serif"],
+        neueRegrade: ['"Neue Regrade"', "sans-serif"],
       },
       fontSize: {
         "custom-250": "250px",
